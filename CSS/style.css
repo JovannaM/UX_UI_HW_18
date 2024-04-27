@@ -1,44 +1,118 @@
 
-/*Unit 17 CSS Styling*/
-
+/*Unit 18 CSS Styling*/
+/*Design is based on Challenge and not actual Annotations; will be implementing changes later*/
 /*Code Nav Bar CSS*/
 
 .inline-block {
 display: inline-block;
 vertical-align: top;
+margin-right: auto;
+padding: 1px;
 }
-
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+/*Remove Logo*/
+.navigation {
+    position: fixed;
+    height: 70px;
+    top: 0;
+    right: 0;
+    margin: 30px;
+    padding: 1px;
 }
-
 nav {
+    display: flex;
+    justify-content: right;
+    align-items: right;
     width: 73%;
     padding: 1%;
 }
-
 ul {
-    width: 50%;
-    margin-left: auto;
+    list-style-type: none;
+    margin: 15px;
+    width: 50%;  
 }
-
 /*Code Hero Image CSS*/
-
 .heroImg {
-    height: 600px;
+    height: 200px;
     padding: 25px;
 }
 
 .content {
     width: 500px;
-    margin: 0auto;
+    margin: 0 auto;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Contact Block*/
+.contact {
+align-items: right;
+margin-right: auto;
+}
+
+
+/*Work Experience and Education Grid*/
+
+/*FLEX CONTAINERS*/
+
+.content {
+    padding: 50px
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-direction: nowrap;
+    justify-content: center;
+    background-color: rgb(220, 204, 189);
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.flexContainer2 {
+    display: flex;
+    align-items: stretch;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.flexContainer3 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+/*My Work Container*/
+
+.workflex {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
 /*Code footer CSS*/
 
 footer {
     background-color: #373738;
+    color: antiquewhite;
     padding: 1%;
+    width: 100%;
+    height: 60px;
+}
+
+/*Media Query Rule; make updated rules*/
+@media only screen and (max-width: 600){
+
 }

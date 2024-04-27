@@ -1,74 +1,190 @@
 <!DOCTYPE html>
 <html>
-
+   <!--Design is based on Challenge and not actual Annotations; will be implementing changes later-->
      <!--Code the Navbar HTML-->
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  </head>
 
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title></title>
-    </head>
-    <body>
-        <header></header>
-        <div class="logo">
-            <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_17/Images/logo.png">
-        </div>
-    <nav id="inline-block">
-        <ul>
-            <li>about</li>
-            <li>skills</li>
-            <li>work</li>
-            <li>contact</li>
-        </ul>
-    </nav>
+  <body>
+    <!--Code the Navbar HTML-->
+    <!--Remove the logo-->
 
-    <!--Code the hero image HTML-->
-
-    <section id="heroImg">
-        <div class="content">
-            <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_17/Images/ProfilePic.png">
-            <p>I am a United States Air Force Veteran and a Fine Arts graduate
-                 with newly gained UX and UI design skills 
-                 currently living in Charlotte, North Carolina.</p>
-            <button type="button">Download Resume</button>
-        </div>
-    </section>
-
-     <!--Code the "My UX Skills" HTML-->
-     <section id="class">
-        <h1> My UX Skills</h1>
-        <div class="flexContainer">
-            <div>
-            <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_18/Images/User Research.png">
-            <h3>User Research</h3>
-            <p>These skills consist of a variety of practices in the Discovery and Definition phases of User Research. 
-                To produce efficient research and analytics  I conduct User Surveys and Interviews with a variety 
-                of specific participants, and conduct a Competitor Analysis that will eventually help build a User Persona and Storyboard.</p>
+            <nav id="inline-block">
+                <div class="navigation">
+              <ul>
+                <li><a href="aboutme">ABOUT ME</a></li>
+                <li><a href="#portfolio">PORFOLIO</a></li>
+                <li><a href="resume">RESUME</a></li>
+              </ul>
             </div>
-            <div>
-                <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_18/Images/User Interface.png">
-                <h3>User Interface Design</h3>
-                <p>These skills consist of a variety of practices in Ideation, Design and Testing phases. In order to strategically plan on a design I study website Heuristics for redesigns and have participants participate in card sorting activities. 
-                    Based on User Research I develop User Flows which will then contribute to Low Fidelity Wireframes. 
-                    I conduct Usability Tests to make iterations for the final mockup.</p>
-            </div>
-            <div>
-                <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_18/Images/Web Development.png">
-                <h3>Web Development</h3>
-                <p>Basic knowledge in HTML, CSS, and Javascript. Experience in VS Studio Code and Github software.</p>
-            </div>
+            </nav>
+        <!--Come back and rename classes with CSS-->
+            <!--Code the hero image HTML-->
+            <section id="heroImg">
+              <div class="content">
+                <h1 class="hello-im-jovanna-container">
+                    <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_18/Images/Profile.png">
+                  <p class="hello">Hello,</p>
+                  <p class="im-jovanna">I'm Jovanna.</p>
+                </h1>
+                <div class="job-title">
+                  <h3 class="title">
+                    A CHARLOTTE BASED DESIGNER AND ILLUSTRATOR
+                  </h3>
+                  <div class="about me">
+                    I am a United States Air Force Veteran and a Fine Arts
+                    graduate with newly gained UX and UI design skills currently
+                    living in Charlotte, North Carolina.    
         </div>
-     </section>
+    </div>
+  </div>
+  </div>
+    <!--LinkedIn Button-->
+    <div class="linkedin">
+    <button>https://www.linkedin.com/in/jovannamixon/</button>
+            <!--Add Image or Leave Button?-->
+          </div>
+          </div>
+        </div>
+</section>
+
+     
+  <!--FLEX CONTAINER START-->
+      <!--Contact Block-->
+      <div class="contact">
+        <div>
+            <section id="contact-me">
+              <div class="contacts1">
+                <h1 class="contact">CONTACT</h1>
+                <ul>
+                  <li>Charlotte, NC</li>
+                  <li>9802304842</li>
+                  <li>mixonjovanna@gmail.com</li>
+              </ul>
+              </div>
+            </div>
+      </div>
+            </section>
+      
+      <!--Work Experience-->
+        <section id="work-education">
+            <div class="flexContainer">
+            <h1 class="work-experience">WORK EXPERIENCE</h1>
+            <div>
+       <ul>
+          <li><b>2021 - 2024</b>
+            <b><p>Cencora</b></p>
+            <p>Patient Access Specialist</p></li>
+        
+          <li><b>2018 - 2021</b>
+            <b><p>Wells Fargo</p></b>
+            <p>Investment Represenative</p></li>
+          <li><b>2012 - 2018</b>
+            <b><p>United States Air Force</p></b>
+            <p>Health Service Administrator</p></li>
+      </ul>
+      </div>
+        </div>
+        
+            <!--Education-->
+              <div class="school">
+                <div class="flexContainer">
+                  <h1 class="education">EDUCATION</h1>
+                    <div>
+                  <ul>
+                    <li><b>2023 - 2024</b>
+                      <b><p>University of North Carolina</b></p>
+                      <p>UX & UI Certification</p></li>
+                  
+                    <li><b>2015 - 2018</b>
+                      <b><p>University of North Carolina</p></b>
+                      <p>B.A Fine Arts</p></li>
+                    <li><b>2012 - 2014</b>
+                      <b><p>Central Piedmont Community College</p></b>
+                      <p>Associates in Fine Arts</p></li>
+                </ul>
+                </div>
+              </div>
+              </div>
+                </section>
+      
+      <!--END OF FLEX CONTAINER-->
 
        <!--Code My Work HTML-->
+       <section id="My Work">
+        <div class="workflex">
+            <div>
+                <img src="/Users/jojo/Desktop/Porfolio Project/Portfolio Code/UX_UI_HW_18/Images/Cat.png">
+            </div>
+            <div>
+                <h4>Halfway There Rescue Case Study</h4>
+                <p>The Halfway There Rescue was designed to attract potential donors and connect local residents looking for new pets . We have observed that our webpage isn’t attracting many users, which is contributing to a lack of donations to our business that is inhibiting our ability to rescue local animals. How might we improve the site features to create a more inviting space to increase overall traffic and donations?</p>
+                <button>View Project</button>
+            </div>
+            <h3>View all projects</h3>
+        </div>
+       </section>
 
+       <!--Passions-->
+<section class="passions">
+    <div class="flexContainer2">
+        <div>
+        <ul>
+          <h1 class="passions">PASSIONS</h1>
+          <p>Illustration</p>
+          <p>Gaming</p>
+          <p>Movies</p>
+          <p>Music</p>
+        </ul>
+        </div>
+        </div>
+  </section>
+
+          <!--Technical Skills-->
+        <section id="skills">
+            <div class="technical-skills">
+              <h1 class="technical-skills">TECHNICAL SKILLS</h1>
+                <div class="software-skills">
+                    <div class="flexContainer3"></div>
+                    <div>
+                  <h3 class="software-skills">SOFTWARE SKILLS</h3>
+                  <div class="skills-software">
+                    <p>Figma</p>
+                    <p>Github</p>
+                    <p>Miro</p>
+                    <p>MS Office</p>
+                    <p>(Word, Excel, Powerpoint)</p>
+                
+                      
+                      <p>Visual Studio Code</p> 
+                      <p>Adobe Photoshop</p>
+                      <p>Adobe Illustrator</p>
+                      <p>Bootstrap</p>
+                    </div>
+                    </div>
+                  </div>
+                <div class="coding-skills">
+                    <div class="flexContainer3"></div>
+                    <div>
+                  <h3 class="coding-skills">CODING SKILLS</h3>
+                    <b class="basic-knowledge">Basic knowledge of:</b>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
     <!--Code the footer HTML-->
 
     <footer>
         <ul>
-            <li>about</li>
-            <li>skills</li>
-            <li>work</li>
-            <li>contact</li>
+            <p>Copyright 2024</p>
+            <b>Want to see my work?</b>
+            <button>See My Portfolio</button>
         </ul>
     </footer>
     </body>
